@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A99C1ADF1C7ECAAC00F056EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99C1ADE1C7ECAAC00F056EC /* AppDelegate.swift */; };
+		A99C1AE11C7ECAAC00F056EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99C1AE01C7ECAAC00F056EC /* ViewController.swift */; };
+		A99C1AE31C7ECAAC00F056EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A99C1AE21C7ECAAC00F056EC /* Assets.xcassets */; };
+		A99C1AE61C7ECAAC00F056EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A99C1AE41C7ECAAC00F056EC /* Main.storyboard */; };
+		A99C1AF11C7ECAAD00F056EC /* SoundAnnotateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99C1AF01C7ECAAD00F056EC /* SoundAnnotateTests.swift */; };
+		A99C1AFC1C7ECAAD00F056EC /* SoundAnnotateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99C1AFB1C7ECAAD00F056EC /* SoundAnnotateUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A99C1AED1C7ECAAD00F056EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A99C1AD31C7ECAAC00F056EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A99C1ADA1C7ECAAC00F056EC;
+			remoteInfo = SoundAnnotate;
+		};
+		A99C1AF81C7ECAAD00F056EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A99C1AD31C7ECAAC00F056EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A99C1ADA1C7ECAAC00F056EC;
+			remoteInfo = SoundAnnotate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A99C1ADB1C7ECAAC00F056EC /* SoundAnnotate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundAnnotate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A99C1ADE1C7ECAAC00F056EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A99C1AE01C7ECAAC00F056EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A99C1AE21C7ECAAC00F056EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A99C1AE51C7ECAAC00F056EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A99C1AE71C7ECAAC00F056EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A99C1AEC1C7ECAAD00F056EC /* SoundAnnotateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundAnnotateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A99C1AF01C7ECAAD00F056EC /* SoundAnnotateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundAnnotateTests.swift; sourceTree = "<group>"; };
+		A99C1AF21C7ECAAD00F056EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A99C1AF71C7ECAAD00F056EC /* SoundAnnotateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundAnnotateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A99C1AFB1C7ECAAD00F056EC /* SoundAnnotateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundAnnotateUITests.swift; sourceTree = "<group>"; };
+		A99C1AFD1C7ECAAD00F056EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A99C1AD81C7ECAAC00F056EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99C1AE91C7ECAAD00F056EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99C1AF41C7ECAAD00F056EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A99C1AD21C7ECAAC00F056EC = {
+			isa = PBXGroup;
+			children = (
+				A99C1ADD1C7ECAAC00F056EC /* SoundAnnotate */,
+				A99C1AEF1C7ECAAD00F056EC /* SoundAnnotateTests */,
+				A99C1AFA1C7ECAAD00F056EC /* SoundAnnotateUITests */,
+				A99C1ADC1C7ECAAC00F056EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A99C1ADC1C7ECAAC00F056EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A99C1ADB1C7ECAAC00F056EC /* SoundAnnotate.app */,
+				A99C1AEC1C7ECAAD00F056EC /* SoundAnnotateTests.xctest */,
+				A99C1AF71C7ECAAD00F056EC /* SoundAnnotateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A99C1ADD1C7ECAAC00F056EC /* SoundAnnotate */ = {
+			isa = PBXGroup;
+			children = (
+				A99C1ADE1C7ECAAC00F056EC /* AppDelegate.swift */,
+				A99C1AE01C7ECAAC00F056EC /* ViewController.swift */,
+				A99C1AE21C7ECAAC00F056EC /* Assets.xcassets */,
+				A99C1AE41C7ECAAC00F056EC /* Main.storyboard */,
+				A99C1AE71C7ECAAC00F056EC /* Info.plist */,
+			);
+			path = SoundAnnotate;
+			sourceTree = "<group>";
+		};
+		A99C1AEF1C7ECAAD00F056EC /* SoundAnnotateTests */ = {
+			isa = PBXGroup;
+			children = (
+				A99C1AF01C7ECAAD00F056EC /* SoundAnnotateTests.swift */,
+				A99C1AF21C7ECAAD00F056EC /* Info.plist */,
+			);
+			path = SoundAnnotateTests;
+			sourceTree = "<group>";
+		};
+		A99C1AFA1C7ECAAD00F056EC /* SoundAnnotateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A99C1AFB1C7ECAAD00F056EC /* SoundAnnotateUITests.swift */,
+				A99C1AFD1C7ECAAD00F056EC /* Info.plist */,
+			);
+			path = SoundAnnotateUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A99C1ADA1C7ECAAC00F056EC /* SoundAnnotate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A99C1B001C7ECAAD00F056EC /* Build configuration list for PBXNativeTarget "SoundAnnotate" */;
+			buildPhases = (
+				A99C1AD71C7ECAAC00F056EC /* Sources */,
+				A99C1AD81C7ECAAC00F056EC /* Frameworks */,
+				A99C1AD91C7ECAAC00F056EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoundAnnotate;
+			productName = SoundAnnotate;
+			productReference = A99C1ADB1C7ECAAC00F056EC /* SoundAnnotate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A99C1AEB1C7ECAAD00F056EC /* SoundAnnotateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A99C1B031C7ECAAD00F056EC /* Build configuration list for PBXNativeTarget "SoundAnnotateTests" */;
+			buildPhases = (
+				A99C1AE81C7ECAAD00F056EC /* Sources */,
+				A99C1AE91C7ECAAD00F056EC /* Frameworks */,
+				A99C1AEA1C7ECAAD00F056EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A99C1AEE1C7ECAAD00F056EC /* PBXTargetDependency */,
+			);
+			name = SoundAnnotateTests;
+			productName = SoundAnnotateTests;
+			productReference = A99C1AEC1C7ECAAD00F056EC /* SoundAnnotateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A99C1AF61C7ECAAD00F056EC /* SoundAnnotateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A99C1B061C7ECAAD00F056EC /* Build configuration list for PBXNativeTarget "SoundAnnotateUITests" */;
+			buildPhases = (
+				A99C1AF31C7ECAAD00F056EC /* Sources */,
+				A99C1AF41C7ECAAD00F056EC /* Frameworks */,
+				A99C1AF51C7ECAAD00F056EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A99C1AF91C7ECAAD00F056EC /* PBXTargetDependency */,
+			);
+			name = SoundAnnotateUITests;
+			productName = SoundAnnotateUITests;
+			productReference = A99C1AF71C7ECAAD00F056EC /* SoundAnnotateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A99C1AD31C7ECAAC00F056EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = TETRA2000;
+				TargetAttributes = {
+					A99C1ADA1C7ECAAC00F056EC = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					A99C1AEB1C7ECAAD00F056EC = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A99C1ADA1C7ECAAC00F056EC;
+					};
+					A99C1AF61C7ECAAD00F056EC = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A99C1ADA1C7ECAAC00F056EC;
+					};
+				};
+			};
+			buildConfigurationList = A99C1AD61C7ECAAC00F056EC /* Build configuration list for PBXProject "SoundAnnotate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A99C1AD21C7ECAAC00F056EC;
+			productRefGroup = A99C1ADC1C7ECAAC00F056EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A99C1ADA1C7ECAAC00F056EC /* SoundAnnotate */,
+				A99C1AEB1C7ECAAD00F056EC /* SoundAnnotateTests */,
+				A99C1AF61C7ECAAD00F056EC /* SoundAnnotateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A99C1AD91C7ECAAC00F056EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99C1AE31C7ECAAC00F056EC /* Assets.xcassets in Resources */,
+				A99C1AE61C7ECAAC00F056EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99C1AEA1C7ECAAD00F056EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99C1AF51C7ECAAD00F056EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A99C1AD71C7ECAAC00F056EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99C1AE11C7ECAAC00F056EC /* ViewController.swift in Sources */,
+				A99C1ADF1C7ECAAC00F056EC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99C1AE81C7ECAAD00F056EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99C1AF11C7ECAAD00F056EC /* SoundAnnotateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99C1AF31C7ECAAD00F056EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99C1AFC1C7ECAAD00F056EC /* SoundAnnotateUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A99C1AEE1C7ECAAD00F056EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A99C1ADA1C7ECAAC00F056EC /* SoundAnnotate */;
+			targetProxy = A99C1AED1C7ECAAD00F056EC /* PBXContainerItemProxy */;
+		};
+		A99C1AF91C7ECAAD00F056EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A99C1ADA1C7ECAAC00F056EC /* SoundAnnotate */;
+			targetProxy = A99C1AF81C7ECAAD00F056EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A99C1AE41C7ECAAC00F056EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A99C1AE51C7ECAAC00F056EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A99C1AFE1C7ECAAD00F056EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A99C1AFF1C7ECAAD00F056EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A99C1B011C7ECAAD00F056EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SoundAnnotate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TETRA2000.SoundAnnotate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A99C1B021C7ECAAD00F056EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SoundAnnotate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TETRA2000.SoundAnnotate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A99C1B041C7ECAAD00F056EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SoundAnnotateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TETRA2000.SoundAnnotateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoundAnnotate.app/Contents/MacOS/SoundAnnotate";
+			};
+			name = Debug;
+		};
+		A99C1B051C7ECAAD00F056EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SoundAnnotateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TETRA2000.SoundAnnotateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoundAnnotate.app/Contents/MacOS/SoundAnnotate";
+			};
+			name = Release;
+		};
+		A99C1B071C7ECAAD00F056EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SoundAnnotateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TETRA2000.SoundAnnotateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SoundAnnotate;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A99C1B081C7ECAAD00F056EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SoundAnnotateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TETRA2000.SoundAnnotateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SoundAnnotate;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A99C1AD61C7ECAAC00F056EC /* Build configuration list for PBXProject "SoundAnnotate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A99C1AFE1C7ECAAD00F056EC /* Debug */,
+				A99C1AFF1C7ECAAD00F056EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A99C1B001C7ECAAD00F056EC /* Build configuration list for PBXNativeTarget "SoundAnnotate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A99C1B011C7ECAAD00F056EC /* Debug */,
+				A99C1B021C7ECAAD00F056EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A99C1B031C7ECAAD00F056EC /* Build configuration list for PBXNativeTarget "SoundAnnotateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A99C1B041C7ECAAD00F056EC /* Debug */,
+				A99C1B051C7ECAAD00F056EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A99C1B061C7ECAAD00F056EC /* Build configuration list for PBXNativeTarget "SoundAnnotateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A99C1B071C7ECAAD00F056EC /* Debug */,
+				A99C1B081C7ECAAD00F056EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A99C1AD31C7ECAAC00F056EC /* Project object */;
+}
